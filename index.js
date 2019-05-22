@@ -6,4 +6,5 @@ function theBeatlesPlay(musicians, instruments)
   for (i = 0; i < musicians.length; i++) {
     lines.push(musicians[i]+' plays '+instruments[i]))
   }
+  return lines;
 }
