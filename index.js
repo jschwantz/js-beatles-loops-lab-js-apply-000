@@ -2,6 +2,8 @@
 function theBeatlesPlay(musicians, instruments) {
   var lines = [];
   
+  // index starts at 0, iterate up until the length of the array
+  // use push method to append a row for each combo
   for (var i = 0; i < musicians.length; i++) {
     lines.push(musicians[i]+' plays '+instruments[i]);
   }
@@ -10,6 +12,8 @@ function theBeatlesPlay(musicians, instruments) {
 
 function johnLennonFacts(facts) {
   var i = 0;
+  // process while our variable i is less than the length of the array passed in
+  // add exclamations to the end and increment i
   while (i < facts.length) {
     facts[i] += '!!!';
     i++;
