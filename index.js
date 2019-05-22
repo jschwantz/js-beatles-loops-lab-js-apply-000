@@ -25,6 +25,7 @@ function iLoveTheBeatles(num) {
   
   var times = [];
   
+  // increment our number and append an element for each time up to 15
   do {
     num++;
     times.push('I love the Beatles!');
