@@ -1,5 +1,7 @@
 // add solution here
-function theBeatlesPlay(Array1, Array2)
+function theBeatlesPlay(musicians, instruments)
 {
+  lines = []
   
+  for 
 }
